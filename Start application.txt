@@ -1,0 +1,1 @@
+java -XX:+UseG1GC -Xms512m -Xmx512m -XX:+UnlockCommercialFeatures -XX:+FlightRecorder -jar target/DemoSpringWebApp.jar

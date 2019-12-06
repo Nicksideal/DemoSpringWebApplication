@@ -16,8 +16,9 @@ public class Message {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
 	@GenericGenerator(name = "native", strategy = "native")
-	private Integer id;
-
+	//private Integer id;
+	private int id;
+	
 	@Column(name = "content")
 	private String content;
 
